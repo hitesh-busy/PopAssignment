@@ -1,7 +1,8 @@
 
 ## Doubt why  is "temp" allowed but when the same thing is put in the nested structure "ns" it cause error
 
-ns := [][]interface{}{
+  
+     ns := [][]interface{}{
 
 		{"John", 30},
 		{"Alice", 27},
