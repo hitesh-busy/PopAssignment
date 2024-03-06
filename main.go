@@ -7,6 +7,7 @@ var ans [][]interface{}
 
 func Pop(nested interface{}, flag bool) interface{} {
 	fmt.Println("Incoming value is ", nested)
+	fmt.Println("LINE ADDED BY MAIN BRANCH")
 	switch v := nested.(type) {
 	case [][]interface{}:
 		var temp []interface{}
